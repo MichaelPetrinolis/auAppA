@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "submodules\\auModA"
+		},
+		{
+			"path": "submodules\\auModB"
+		}
+	],
+	"settings": {}
+}
