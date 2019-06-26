@@ -10,5 +10,7 @@
 			"path": "submodules\\auModB"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"typescript.tsdk": "auModB\\node_modules\\typescript\\lib"
+	}
 }
