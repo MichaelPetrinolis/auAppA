@@ -11,7 +11,8 @@
       "sourceMapPathOverrides": {
         "webpack:///./src/*": "${webRoot}/*",
         "webpack:///./node_modules/au-mod-a/*": "${workspaceRoot}/submodules/auModA/*",
-        "webpack:///./node_modules/au-mod-b/*": "${workspaceRoot}/submodules/auModB/*"
+        "webpack:///./node_modules/au-mod-b/*": "${workspaceRoot}/submodules/auModB/*",
+        "webpack:///./node_modules/*": "${workspaceRoot}/node_modules/*"
       }
     }
   ]

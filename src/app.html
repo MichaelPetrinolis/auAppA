@@ -1,5 +1,12 @@
 <template>
   <h1>${message}</h1>
-  <hello-world-a></hello-world-a>
-  <hello-world-b></hello-world-b>
+  <hello-world-a message.bind="message">
+    <template replace-part="content">
+      <p>Modified content</p>
+      <h2 class="hello-world-a">
+        ${message} from ModB
+      </h2>
+    </template>
+  </hello-world-a>
+  <hello-world-b message.bind="message"></hello-world-b>
 </template>
