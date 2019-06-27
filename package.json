@@ -11,8 +11,7 @@
     "au-mod-a": "file:submodules/aumoda",
     "au-mod-b": "file:submodules/auModB",
     "aurelia-animator-css": "^1.0.4",
-    "aurelia-bootstrapper": "^2.3.2",
-    "aurelia-loader-webpack": "2.1.0"
+    "aurelia-bootstrapper": "^2.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
